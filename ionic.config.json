@@ -1,0 +1,7 @@
+{
+  "name": "Memorama",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
