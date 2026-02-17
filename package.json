@@ -9,7 +9,7 @@
     "build:android": "if not exist android (npx cap add android)",
     "build:android:sync": "npx cap copy android",
     "patch:capacitor": "node scripts/patch-capacitor-gradle.cjs",
-    "clean:assets": "rimraf android/.gradle android/.gitignore android/.idea/caches android/.idea/AndroidProjectSystem.xml android/.idea/compiler.xml android/.idea/deploymentTargetSelector.xml android/.idea/gradle.xml android/.idea/migrations.xml android/.idea/misc.xml android/.idea/runConfigurations.xml android/.idea/vcs.xml android/app/build android/build android/capacitor-cordova-android-plugins/build android/local.properties android/app/src/androidTest android/app/src/test",
+    "clean:assets": "rimraf android/.gradle android/.gitignore android/.idea/caches android/.idea/libraries android/.idea/modules android/.idea/modules.xml android/.idea/.gitignore android/.idea/AndroidProjectSystem.xml android/.idea/compiler.xml android/.idea/deploymentTargetSelector.xml android/.idea/gradle.xml android/.idea/migrations.xml android/.idea/misc.xml android/.idea/runConfigurations.xml android/.idea/vcs.xml android/app/build android/build android/capacitor-cordova-android-plugins/build android/local.properties android/app/src/androidTest android/app/src/test android/app/src/main/assets/public/config/memorama-config.json android/app/src/main/assets/public/config/memorama-config-example.json",
     "zip:android": "powershell Compress-Archive -Path android -DestinationPath android-base.zip -Force",
     "build": "npm run build:web && npm run build:android && npm run build:android:sync && npm run patch:capacitor && npm run clean:assets && npm run zip:android",
     "preview": "vite preview",

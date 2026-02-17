@@ -1,0 +1,22 @@
+{
+  "nombreApp": "Memorama",
+  "nivel": "basico",
+  "autor": "Equipo STEAM-G",
+  "version": "1.0.0",
+  "fecha": "2026-02-16",
+  "descripcion": "Encuentra todas las parejas de cartas antes de que se termine el tiempo.",
+  "plataformas": ["android", "ios", "web"],
+  "imagenes": {
+    "basico": [
+      "ardilla.jpg",
+      "elefante.jpg",
+      "tigre.jpg"
+    ],
+    "intermedio": [
+      "intermedio.zip"
+    ],
+    "avanzado": [
+      "avanzado.zip"
+    ]
+  }
+}
