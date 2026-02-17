@@ -988,9 +988,7 @@ const Home: React.FC<PlayProps> = ({ difficulty = "basic" }) => {
             <div className="ins-stats">
               <p style={{ textAlign: "justify" }}>
                 <strong>
-                  Voltea dos cartas por turno. Si son iguales, la pareja queda
-                  descubierta. Si no coinciden, se voltearán de nuevo. Gana al
-                  encontrar todas las parejas antes de que el tiempo termine.
+                  Forma los pares iguales antes del tiempo límite.
                 </strong>
               </p>
             </div>
