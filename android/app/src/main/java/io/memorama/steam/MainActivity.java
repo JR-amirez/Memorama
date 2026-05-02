@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package io.memorama.steam;
 
 import com.getcapacitor.BridgeActivity;
 
