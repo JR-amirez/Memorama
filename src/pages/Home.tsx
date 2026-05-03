@@ -105,9 +105,9 @@ const getPairCount = (nivel: Difficulty): number => {
 
 const getTimeLimit = (nivel: Difficulty): number => {
   const mapa: Record<Difficulty, number> = {
-    basic: 15,
-    intermediate: 20,
-    advanced: 30,
+    basic: 180,
+    intermediate: 300,
+    advanced: 600,
   };
   return mapa[nivel] ?? 90;
 };
